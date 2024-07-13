@@ -4,6 +4,7 @@ function App() {
   return (
     <>
       <p>Hello world</p>
+      <p>Test commit</p>
     </>
   );
 }
