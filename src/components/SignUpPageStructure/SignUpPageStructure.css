@@ -1,0 +1,90 @@
+.SignUpPageStructure {
+    padding-top: 10%;
+    background-image: url("../../../public/images/background-lemons.jpg");
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#SignUpH1Header {
+    color: #495e57;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 15px;
+    background-color: #f4ce14;
+    display: inline-block;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#SignUpForm {
+    text-align: center;
+}
+
+#SignUpFormDiv {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #edefee;
+    margin: 5%;
+}
+
+#SignUpButton {
+    margin-top: 20px;
+    text-decoration: none;
+    border: 0px;
+    background-color: #f4ce14;
+    border-radius: 10px;
+    color: #495e57;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.SignUpPageField label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 30px;
+    color: #495e57;
+    font-family: "Markazi";
+}
+
+.SignUpPageField {
+    margin-bottom: 20px;
+}
+
+.SignUpPageField input {
+    border: 1px solid #495e57;
+    border-radius: 10px;
+    padding: 5px;
+    padding-right: 45px;
+    font-size: large;
+}
+
+#eyePassword {
+    position: absolute;
+    top: 53%;
+    right: 4%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 30px;
+    height: auto;
+}
+
+#eyeConfirmPassword {
+    position: absolute;
+    top: 53%;
+    right: 4%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 30px;
+    height: auto;
+}
+
+.passwordWrapper {
+    position: relative;
+}

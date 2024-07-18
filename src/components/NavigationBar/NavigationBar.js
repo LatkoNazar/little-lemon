@@ -1,35 +1,47 @@
 import "./NavigationBar.css";
-
+import { Link } from "react-router-dom";
 export default function NavigationBar() {
     return (
         <>
             <div className="container">
-                <a href="/" className="image-logo">
+                <Link to="/" className="image-logo">
                     <img
                         src="../images/littlelemon-logo.png"
                         alt="Little Lemon logo"
                     />
-                </a>
+                </Link>
 
                 <nav className="navigation">
                     <ul>
                         <li>
-                            <a href="/">Home</a>
+                            <Link className="NavigationLink" to="/">
+                                Home
+                            </Link>
                         </li>
                         <li>
-                            <a href="/about">About</a>
+                            <Link className="NavigationLink" to="/about">
+                                About
+                            </Link>
                         </li>
                         <li>
-                            <a href="/menu">Menu</a>
+                            <Link className="NavigationLink" to="/menu">
+                                Menu
+                            </Link>
                         </li>
                         <li>
-                            <a href="/reservation">Reservation</a>
+                            <Link className="NavigationLink" to="/reservation">
+                                Reservation
+                            </Link>
                         </li>
                         <li>
-                            <a href="/order-online">Order online</a>
+                            <Link className="NavigationLink" to="/order-online">
+                                Order online
+                            </Link>
                         </li>
                         <li>
-                            <a href="/login">Login / Sign up</a>
+                            <Link className="NavigationLink" to="/login">
+                                Login / Sign up
+                            </Link>
                         </li>
                     </ul>
                 </nav>

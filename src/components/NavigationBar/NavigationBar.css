@@ -12,7 +12,7 @@
     align-items: center;
 }
 
-.navigation li a {
+.navigation li .NavigationLink {
     text-decoration: none;
     color: #495e57;
     font-weight: bold;
@@ -21,7 +21,7 @@
     box-sizing: border-box;
 }
 
-.navigation li a:hover {
+.navigation li .NavigationLink:hover {
     color: white;
     background-color: #495e57;
     border-radius: 12px;

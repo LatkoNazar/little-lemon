@@ -1,0 +1,79 @@
+.food-card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #edefee;
+  border-radius: 15px;
+  margin: 20px;
+  overflow: hidden;
+  box-sizing: border-box;
+  min-height: 800px;
+  flex-grow: 1;
+  border: 1px solid darkgray;
+}
+
+.card-info {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.food-img {
+  width: 100%;
+  flex: 0 0 50%;
+  height: 50%;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+#add-to-cart {
+  font-size: 1.5rem;
+  background-color: #f4ce14;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #495e57;
+  padding: 7px;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-weight: bold;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.add-button {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-end;
+  padding-bottom: 5px;
+  margin-top: auto;
+}
+
+#price {
+  font-weight: bold;
+  font-size: x-large;
+  margin: 5px;
+}
+
+.new {
+  background-color: #fbdabb;
+  border-radius: 5px;
+  padding: 2px 8px;
+  font-size: 0.8rem;
+  color: Red;
+  margin-left: 10px;
+}
+
+.food-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Markazi";
+  font-size: xx-large;
+}
+
+.new {
+  font-size: x-large;
+}

@@ -1,0 +1,36 @@
+.offers-field {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.heading-to-special-offers {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.heading-to-special-offers p {
+  background-color: #f4ce14;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.heading-to-special-offers h2 {
+  font-family: "Markazi";
+  margin-top: 0px;
+  padding-top: 20px;
+}
+
+#little-lemon-full-menu {
+  margin-top: 0px;
+  padding: 3%;
+  padding-top: 10%;
+}
+
+#little-lemon-special-offers {
+  margin-top: 0px;
+  padding: 3%;
+  padding-top: 5%;
+}

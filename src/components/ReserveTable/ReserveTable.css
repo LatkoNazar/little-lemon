@@ -1,0 +1,111 @@
+.reserve-table-field-edge {
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 30px;
+    background-color: #edefee;
+}
+
+.formField {
+    margin-bottom: 20px;
+}
+
+.formField label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 2rem;
+    color: #495e57;
+    font-family: "Markazi";
+}
+
+#submitReservation {
+    text-decoration: none;
+    border: 0px;
+    background-color: #f4ce14;
+    border-radius: 10px;
+    color: #495e57;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#comments {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #495e57;
+    font-size: x-large;
+}
+
+.inputField {
+    border: 1px solid #495e57;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+}
+
+#submitReservation:hover {
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+.reserve-table-h1-field img {
+    position: absolute;
+    right: 10%;
+    width: 40%;
+    height: auto;
+    border-radius: 15px;
+}
+
+#submissionWarning {
+    margin-top: 30px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.reserve-table-h1-field {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    background-color: #495e57;
+    margin-bottom: 100px;
+}
+
+.reserve-table-h1-field h1 {
+    background-color: #f4ce14;
+    color: #495e57;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px 10px;
+    font-family: "Markazi";
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.text-before-reservation p {
+    display: flex;
+    flex-wrap: wrap;
+    color: #edefee;
+    padding: 40px;
+    padding-left: 0px;
+    padding-top: 10px;
+    font-size: x-large;
+}
+
+.text-before-reservation {
+    width: 45%;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.form-reservation {
+    margin-top: 30px;
+}
+
+#signUp-a-tag {
+    text-decoration: none;
+    font-weight: bold;
+}

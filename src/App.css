@@ -1,0 +1,20 @@
+* {
+    font-family: "Noto Sans";
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    overflow: visible;
+    width: 100%;
+    border-bottom: 2px solid darkgreen;
+    z-index: 1000;
+}
+
+.error-formik {
+    color: red;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
