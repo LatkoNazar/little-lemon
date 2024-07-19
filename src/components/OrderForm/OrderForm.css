@@ -1,0 +1,47 @@
+#OrderForm-main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+#OrderForm-main-field {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1%;
+    background-color: darkgray;
+    border-radius: 15px;
+}
+
+.Order-formField {
+    margin-bottom: 20px;
+}
+
+.order-inputField {
+    border: 1px solid #495e57;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+}
+
+.Order-formField label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 30px;
+    color: #495e57;
+    font-family: "Markazi";
+}
+
+#ClosingX {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 15%;
+    right: 20px;
+    cursor: pointer;
+}

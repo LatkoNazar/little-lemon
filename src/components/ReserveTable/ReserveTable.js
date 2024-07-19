@@ -177,7 +177,6 @@ export default function ReserveTable() {
                         onBlur={formik.handleBlur}
                         value={formik.values.time}
                     >
-                        <option value="None">None</option>
                         <option value="11:00 AM">11:00</option>
                         <option value="12:00 PM">12:00</option>
                         <option value="1:00 PM">13:00</option>
@@ -203,7 +202,6 @@ export default function ReserveTable() {
                         onBlur={formik.handleBlur}
                         value={formik.values.occasion}
                     >
-                        <option>None</option>
                         <option>Birthday</option>
                         <option>Anniversary</option>
                         <option>Engagement</option>
@@ -225,7 +223,6 @@ export default function ReserveTable() {
                         onBlur={formik.handleBlur}
                         value={formik.values.preferences}
                     >
-                        <option>None</option>
                         <option>Indoors</option>
                         <option>Outdoor (Patio)</option>
                         <option>Outdoor (Sidewalk)</option>
