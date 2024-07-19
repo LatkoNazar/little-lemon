@@ -1,4 +1,32 @@
 .user-order-main-div {
     padding-top: 10%;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
     background-color: #495e57;
+    text-align: center;
+}
+
+#main-h1-order-tag {
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 10px;
+    background-color: #fbdabb;
+    border-radius: 15px;
+}
+
+#Submit-order-food {
+    margin-top: 20px;
+    text-align: center;
+    height: 100%;
+    text-decoration: none;
+    border: 0px;
+    background-color: #f4ce14;
+    border-radius: 10px;
+    color: #495e57;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid black;
+    scale: 1.2;
 }

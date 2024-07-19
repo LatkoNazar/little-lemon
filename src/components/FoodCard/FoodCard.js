@@ -1,5 +1,6 @@
 import "./FoodCard.css";
 import { OrderContext } from "../../App";
+import { totalPriceContext } from "../../App";
 import { useContext } from "react";
 function newFood(isNew) {
     if (isNew) {
@@ -10,10 +11,12 @@ function newFood(isNew) {
 
 export default function FoodCard(props) {
     const { usersOrder, setUsersOrder } = useContext(OrderContext);
+    const { totalPrice, setTotalPrice } = useContext(totalPriceContext);
 
     function addToCart() {
         setUsersOrder([...usersOrder, props.offer]);
-        alert("Added to cart!");
+        setTotalPrice(totalPrice + props.price);
+        alert("Added to cart! Check Order online page!");
     }
 
     return (
@@ -23,7 +26,7 @@ export default function FoodCard(props) {
                 <h3 className="food-title">
                     {props.name} {newFood(props.isNew)}
                 </h3>
-                <p id="price">{props.price}</p>
+                <p id="price">${props.price}</p>
                 <p>{props.description}</p>
             </section>
             <div className="add-button">

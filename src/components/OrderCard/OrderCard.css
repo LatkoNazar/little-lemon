@@ -1,0 +1,57 @@
+.order-card {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.Order-card-content {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    background-color: #edefee;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 10px;
+    padding-right: 20px;
+}
+
+.order-food-img {
+    max-height: 100px;
+    max-width: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+}
+
+.Info-about-order {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.OrderFoodName {
+    margin-left: 20px;
+}
+
+.Remove-order-buuton {
+    height: 100%;
+    text-decoration: none;
+    border: 0px;
+    background-color: #f4ce14;
+    border-radius: 10px;
+    color: #495e57;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.Order-price-for-dish {
+    font-size: 2rem;
+    font-weight: bold;
+}

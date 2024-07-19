@@ -34,8 +34,8 @@ export default function NavigationBar() {
                             </Link>
                         </li>
                         <li>
-                            <Link className="NavigationLink" to="/order-online">
-                                Order online
+                            <Link className="NavigationLink" to="/your-order">
+                                Your Order
                             </Link>
                         </li>
                         <li>

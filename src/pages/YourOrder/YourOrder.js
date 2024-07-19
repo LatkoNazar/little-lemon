@@ -1,10 +1,9 @@
-import "./OrderOnline.css";
+import "./YourOrder.css";
 import NavigationBar from "../../components/NavigationBar/NavigationBar.js";
 import Footer from "../../components/Footer/Footer.js";
 import UserOrder from "../../components/UserOrder/UserOrder.js";
-import Offers from "../../components/Offers/Offers.js";
 
-export default function OrderOnline() {
+export default function YourOrder() {
     return (
         <>
             <header>
