@@ -57,6 +57,12 @@ export default function SugnUpPageStructure() {
                             onBlur={formik.handleBlur}
                             onChange={formik.handleChange}
                             value={formik.values.username}
+                            style={
+                                formik.errors.username &&
+                                formik.touched.username && {
+                                    border: "2px solid red",
+                                }
+                            }
                         />
                         {formik.errors.username && formik.touched.username ? (
                             <div className="error-formik">
@@ -73,6 +79,12 @@ export default function SugnUpPageStructure() {
                             onBlur={formik.handleBlur}
                             onChange={formik.handleChange}
                             value={formik.values.email}
+                            style={
+                                formik.errors.email &&
+                                formik.touched.email && {
+                                    border: "2px solid red",
+                                }
+                            }
                         />
                         {formik.errors.email && formik.touched.email ? (
                             <div className="error-formik">
@@ -90,6 +102,12 @@ export default function SugnUpPageStructure() {
                                 onBlur={formik.handleBlur}
                                 onChange={formik.handleChange}
                                 value={formik.values.password}
+                                style={
+                                    formik.errors.password &&
+                                    formik.touched.password && {
+                                        border: "2px solid red",
+                                    }
+                                }
                             />
                             <img
                                 onClick={eyeToglerPassword}
@@ -118,6 +136,12 @@ export default function SugnUpPageStructure() {
                                 onBlur={formik.handleBlur}
                                 onChange={formik.handleChange}
                                 value={formik.values.confirmPassword}
+                                style={
+                                    formik.errors.confirmPassword &&
+                                    formik.touched.confirmPassword && {
+                                        border: "2px solid red",
+                                    }
+                                }
                             />
                             <img
                                 onClick={eyeToglerConfirmPassword}

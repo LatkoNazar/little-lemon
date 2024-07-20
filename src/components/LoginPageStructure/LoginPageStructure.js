@@ -44,6 +44,12 @@ export default function LoginPageStructure() {
                             onBlur={formik.handleBlur}
                             onChange={formik.handleChange}
                             value={formik.values.username}
+                            style={
+                                formik.errors.username &&
+                                formik.touched.username && {
+                                    border: "2px solid red",
+                                }
+                            }
                         />
                         {formik.errors.username && formik.touched.username ? (
                             <div className="error-formik">
@@ -61,6 +67,12 @@ export default function LoginPageStructure() {
                                 onBlur={formik.handleBlur}
                                 onChange={formik.handleChange}
                                 value={formik.values.password}
+                                style={
+                                    formik.errors.password &&
+                                    formik.touched.password && {
+                                        border: "2px solid red",
+                                    }
+                                }
                             />
                             <img
                                 onClick={eyeTogler}

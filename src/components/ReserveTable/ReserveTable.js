@@ -72,6 +72,12 @@ export default function ReserveTable() {
                         onChange={formik.handleChange}
                         onBlur={formik.handleBlur}
                         value={formik.values.firstName}
+                        style={
+                            formik.errors.firstName &&
+                            formik.touched.firstName && {
+                                border: "2px solid red",
+                            }
+                        }
                     />
                     {formik.touched.firstName && formik.errors.firstName ? (
                         <div className="error-formik">
@@ -89,6 +95,12 @@ export default function ReserveTable() {
                         onChange={formik.handleChange}
                         onBlur={formik.handleBlur}
                         value={formik.values.lastName}
+                        style={
+                            formik.errors.lastName &&
+                            formik.touched.lastName && {
+                                border: "2px solid red",
+                            }
+                        }
                     />
                     {formik.touched.lastName && formik.errors.lastName ? (
                         <div className="error-formik">
@@ -106,6 +118,12 @@ export default function ReserveTable() {
                         onChange={formik.handleChange}
                         onBlur={formik.handleBlur}
                         value={formik.values.email}
+                        style={
+                            formik.errors.email &&
+                            formik.touched.email && {
+                                border: "2px solid red",
+                            }
+                        }
                     />
                     {formik.touched.email && formik.errors.email ? (
                         <div className="error-formik">
@@ -125,6 +143,12 @@ export default function ReserveTable() {
                         onChange={formik.handleChange}
                         onBlur={formik.handleBlur}
                         value={formik.values.phoneNumber}
+                        style={
+                            formik.errors.phoneNumber &&
+                            formik.touched.phoneNumber && {
+                                border: "2px solid red",
+                            }
+                        }
                     />
                     {formik.touched.phoneNumber && formik.errors.phoneNumber ? (
                         <div className="error-formik">
@@ -144,6 +168,12 @@ export default function ReserveTable() {
                         onChange={formik.handleChange}
                         onBlur={formik.handleBlur}
                         value={formik.values.peopleNumber}
+                        style={
+                            formik.errors.peopleNumber &&
+                            formik.touched.peopleNumber && {
+                                border: "2px solid red",
+                            }
+                        }
                     />
                     {formik.touched.peopleNumber &&
                     formik.errors.peopleNumber ? (
@@ -162,6 +192,12 @@ export default function ReserveTable() {
                         onChange={formik.handleChange}
                         onBlur={formik.handleBlur}
                         value={formik.values.date}
+                        style={
+                            formik.errors.date &&
+                            formik.touched.date && {
+                                border: "2px solid red",
+                            }
+                        }
                     />
                     {formik.touched.date && formik.errors.date ? (
                         <div className="error-formik">{formik.errors.date}</div>
@@ -176,6 +212,12 @@ export default function ReserveTable() {
                         onChange={formik.handleChange}
                         onBlur={formik.handleBlur}
                         value={formik.values.time}
+                        style={
+                            formik.errors.time &&
+                            formik.touched.time && {
+                                border: "2px solid red",
+                            }
+                        }
                     >
                         <option value="11:00 AM">11:00</option>
                         <option value="12:00 PM">12:00</option>
@@ -201,6 +243,12 @@ export default function ReserveTable() {
                         onChange={formik.handleChange}
                         onBlur={formik.handleBlur}
                         value={formik.values.occasion}
+                        style={
+                            formik.errors.occasion &&
+                            formik.touched.occasion && {
+                                border: "2px solid red",
+                            }
+                        }
                     >
                         <option>Birthday</option>
                         <option>Anniversary</option>
@@ -222,6 +270,12 @@ export default function ReserveTable() {
                         onChange={formik.handleChange}
                         onBlur={formik.handleBlur}
                         value={formik.values.preferences}
+                        style={
+                            formik.errors.preferences &&
+                            formik.touched.preferences && {
+                                border: "2px solid red",
+                            }
+                        }
                     >
                         <option>Indoors</option>
                         <option>Outdoor (Patio)</option>
@@ -245,6 +299,12 @@ export default function ReserveTable() {
                         onChange={formik.handleChange}
                         onBlur={formik.handleBlur}
                         value={formik.values.comments}
+                        style={
+                            formik.errors.comments &&
+                            formik.touched.comments && {
+                                border: "2px solid red",
+                            }
+                        }
                     ></textarea>
                     {formik.touched.comments && formik.errors.comments ? (
                         <div className="error-formik">
