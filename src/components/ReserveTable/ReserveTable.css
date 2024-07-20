@@ -50,9 +50,7 @@
 }
 
 .reserve-table-h1-field img {
-    position: absolute;
-    right: 10%;
-    width: 40%;
+    width: 70%;
     height: auto;
     border-radius: 15px;
 }
@@ -96,7 +94,6 @@
 }
 
 .text-before-reservation {
-    width: 45%;
     text-align: left;
     margin-right: 20px;
 }
