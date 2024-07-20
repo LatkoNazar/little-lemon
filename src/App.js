@@ -16,7 +16,7 @@ function App() {
     const [usersOrder, setUsersOrder] = useState([]);
     const [totalPrice, setTotalPrice] = useState(0);
     useEffect(() => {
-        console.log(usersOrder);
+        console.log("Order:", usersOrder);
     }, [usersOrder]);
 
     return (

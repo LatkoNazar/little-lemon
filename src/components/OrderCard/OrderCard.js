@@ -11,7 +11,7 @@ export default function OrderCard(props) {
         for (let i = 0; i < usersOrder.length; i++) {
             if (
                 usersOrder[i].name === order.name &&
-                usersOrder[i].description === order.description
+                usersOrder[i].key === order.key
             ) {
                 var updatedOrder = usersOrder.filter(
                     (item, index) => index !== i

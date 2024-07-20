@@ -1,4 +1,21 @@
 .Feedbacks-main-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    max-width: 100%;
+}
+
+#Feedbacks-main-div-section {
+    background-color: #495e57;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: #f4ce14;
+}
+
+.WhatPeopleSay {
+    font-family: "Markazi";
+    font-weight: bold;
+    font-size: 3rem;
 }

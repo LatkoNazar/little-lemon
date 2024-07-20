@@ -5,7 +5,7 @@ export default function Promotion() {
         <>
             <section className="about-little-lemon">
                 <section className="description">
-                    <section class="headers">
+                    <section className="headers">
                         <h1>Little Lemon</h1>
                         <h2>Chicago</h2>
                     </section>

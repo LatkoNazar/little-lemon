@@ -2,6 +2,8 @@ import "./FoodCard.css";
 import { OrderContext } from "../../App";
 import { totalPriceContext } from "../../App";
 import { useContext } from "react";
+import { v4 as uuidv4 } from "uuid";
+
 function newFood(isNew) {
     if (isNew) {
         return <span className="new">New</span>;
@@ -14,9 +16,12 @@ export default function FoodCard(props) {
     const { totalPrice, setTotalPrice } = useContext(totalPriceContext);
 
     function addToCart() {
-        setUsersOrder([...usersOrder, props.offer]);
+        var newOrder = { ...props.offer };
+        newOrder.key = 0;
+        newOrder.key = uuidv4();
+        setUsersOrder([...usersOrder, newOrder]);
         setTotalPrice(totalPrice + props.price);
-        alert("Added to cart! Check Order online page!");
+        alert("Added to cart! Check Your order page!");
     }
 
     return (

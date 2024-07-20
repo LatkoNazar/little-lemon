@@ -1,11 +1,12 @@
 .feedback-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: #495e57;
-    padding: 10px;
+    background-color: #edefee;
+    padding: 20px;
     border-radius: 15px;
-    margin: 5%;
+    margin: 20px;
+    color: #495e57;
+    overflow: hidden;
 }
 
 .feedbackIcon {
@@ -18,7 +19,17 @@
 }
 
 .feedbackIcon_div {
-    height: 40%;
     overflow: hidden;
-    flex: 1;
+    border-bottom: 2px dotted #495e57;
+}
+
+.startImg {
+    margin-right: 3px;
+    margin-left: 3px;
+    width: 20px;
+    height: 20px;
+}
+
+.starsDiv {
+    margin-top: 10px;
 }

@@ -15,7 +15,7 @@ export default function UserOrder() {
         return (
             <>
                 <div className="user-order-main-div">
-                    <h1 id="main-h1-order-tag">No dishes!</h1>
+                    <h1 id="main-h1-order-tag">No dishes. Go to Menu!</h1>
                 </div>
             </>
         );
@@ -31,7 +31,7 @@ export default function UserOrder() {
                             Total price: ${Math.round(totalPrice * 100) / 100}
                         </h1>
                         {usersOrder.map((order) => {
-                            return <OrderCard key={order.name} order={order} />;
+                            return <OrderCard key={order.key} order={order} />;
                         })}
                         <button
                             id="Submit-order-food"
